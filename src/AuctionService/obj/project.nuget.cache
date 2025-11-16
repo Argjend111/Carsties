@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bTqfXAzOJuQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\argje\\OneDrive\\Desktop\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\argje\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\argje\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
