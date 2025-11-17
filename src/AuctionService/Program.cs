@@ -30,7 +30,7 @@ builder.Services.AddMassTransit(x =>
 
     x.UsingRabbitMq((context, cfg) =>
     {
-        cfg.UseRetry(r => 
+        cfg.UseRetry(r =>
         {
             r.Handle<RabbitMqConnectionException>();
             r.Interval(5, TimeSpan.FromSeconds(10));
