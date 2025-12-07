@@ -1,0 +1,7 @@
+C:\Users\argje\OneDrive\Desktop\Carsties\src\GatewayService\obj\Debug\net7.0\GatewayService.csproj.AssemblyReference.cache
+C:\Users\argje\OneDrive\Desktop\Carsties\src\GatewayService\obj\Debug\net7.0\GatewayService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\argje\OneDrive\Desktop\Carsties\src\GatewayService\obj\Debug\net7.0\GatewayService.AssemblyInfoInputs.cache
+C:\Users\argje\OneDrive\Desktop\Carsties\src\GatewayService\obj\Debug\net7.0\GatewayService.AssemblyInfo.cs
+C:\Users\argje\OneDrive\Desktop\Carsties\src\GatewayService\obj\Debug\net7.0\GatewayService.csproj.CoreCompileInputs.cache
+C:\Users\argje\OneDrive\Desktop\Carsties\src\GatewayService\obj\Debug\net7.0\GatewayService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\argje\OneDrive\Desktop\Carsties\src\GatewayService\obj\Debug\net7.0\GatewayService.sourcelink.json
