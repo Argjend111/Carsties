@@ -1,0 +1,8 @@
+C:\Users\argje\OneDrive\Desktop\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.csproj.AssemblyReference.cache
+C:\Users\argje\OneDrive\Desktop\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\argje\OneDrive\Desktop\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.AssemblyInfoInputs.cache
+C:\Users\argje\OneDrive\Desktop\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.AssemblyInfo.cs
+C:\Users\argje\OneDrive\Desktop\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.csproj.CoreCompileInputs.cache
+C:\Users\argje\OneDrive\Desktop\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\argje\OneDrive\Desktop\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\argje\OneDrive\Desktop\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.sourcelink.json
