@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hT7vzyq8G2k=",
+  "dgSpecHash": "dyD2FhLdRYo=",
   "success": true,
   "projectFilePath": "C:\\Users\\argje\\OneDrive\\Desktop\\Carsties\\src\\AuctionService\\AuctionService.csproj",
   "expectedPackageFiles": [
@@ -17,8 +17,8 @@
     "C:\\Users\\argje\\.nuget\\packages\\grpc.net.common\\2.71.0\\grpc.net.common.2.71.0.nupkg.sha512",
     "C:\\Users\\argje\\.nuget\\packages\\grpc.tools\\2.76.0\\grpc.tools.2.76.0.nupkg.sha512",
     "C:\\Users\\argje\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\argje\\.nuget\\packages\\masstransit\\8.5.5\\masstransit.8.5.5.nupkg.sha512",
-    "C:\\Users\\argje\\.nuget\\packages\\masstransit.abstractions\\8.5.5\\masstransit.abstractions.8.5.5.nupkg.sha512",
+    "C:\\Users\\argje\\.nuget\\packages\\masstransit\\8.5.7\\masstransit.8.5.7.nupkg.sha512",
+    "C:\\Users\\argje\\.nuget\\packages\\masstransit.abstractions\\8.5.7\\masstransit.abstractions.8.5.7.nupkg.sha512",
     "C:\\Users\\argje\\.nuget\\packages\\masstransit.entityframeworkcore\\8.5.5\\masstransit.entityframeworkcore.8.5.5.nupkg.sha512",
     "C:\\Users\\argje\\.nuget\\packages\\masstransit.rabbitmq\\8.5.5\\masstransit.rabbitmq.8.5.5.nupkg.sha512",
     "C:\\Users\\argje\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.2\\microsoft.aspnetcore.authentication.jwtbearer.7.0.2.nupkg.sha512",
@@ -84,10 +84,10 @@
     "C:\\Users\\argje\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512",
     "C:\\Users\\argje\\.nuget\\packages\\system.threading.tasks.extensions\\4.6.3\\system.threading.tasks.extensions.4.6.3.nupkg.sha512",
     "C:\\Users\\argje\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512",
-    "C:\\Users\\argje\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\argje\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
     "C:\\Users\\argje\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\argje\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+    "C:\\Users\\argje\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512",
+    "C:\\Users\\argje\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\argje\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

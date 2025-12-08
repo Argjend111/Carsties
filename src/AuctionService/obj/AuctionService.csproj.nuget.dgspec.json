@@ -78,7 +78,7 @@
             },
             "MassTransit": {
               "target": "Package",
-              "version": "[8.5.5, )"
+              "version": "[8.5.7, )"
             },
             "MassTransit.EntityFrameworkCore": {
               "target": "Package",
