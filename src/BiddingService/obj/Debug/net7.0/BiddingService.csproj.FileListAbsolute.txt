@@ -1,7 +1,0 @@
-C:\Users\argje\OneDrive\Desktop\Carsties\src\BiddingService\obj\Debug\net7.0\BiddingService.csproj.AssemblyReference.cache
-C:\Users\argje\OneDrive\Desktop\Carsties\src\BiddingService\obj\Debug\net7.0\BiddingService.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\argje\OneDrive\Desktop\Carsties\src\BiddingService\obj\Debug\net7.0\BiddingService.AssemblyInfoInputs.cache
-C:\Users\argje\OneDrive\Desktop\Carsties\src\BiddingService\obj\Debug\net7.0\BiddingService.AssemblyInfo.cs
-C:\Users\argje\OneDrive\Desktop\Carsties\src\BiddingService\obj\Debug\net7.0\BiddingService.csproj.CoreCompileInputs.cache
-C:\Users\argje\OneDrive\Desktop\Carsties\src\BiddingService\obj\Debug\net7.0\BiddingService.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\argje\OneDrive\Desktop\Carsties\src\BiddingService\obj\Debug\net7.0\BiddingService.sourcelink.json
