@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctionService.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2a4ee1ebfb9c4e285f7acfc631bd88b670c594b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d350ee93db9f9c9c5ddd43b96d2c66c0111c87a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctionService.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctionService.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
