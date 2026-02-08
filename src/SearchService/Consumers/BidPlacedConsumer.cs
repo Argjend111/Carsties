@@ -12,6 +12,11 @@ public class BidPlacedConsumer : IConsumer<BidPlaced>
 
         var auction = await DB.Find<Item>().OneAsync(context.Message.AuctionId);
 
+        if (auction == null)
+        {
+            throw new MessageException(typeof(BidPlaced), $"Could not find auction with id: {context.Message.AuctionId}");
+        }
+
         if (context.Message.BidStatus.Contains("Accepted") 
             && context.Message.Amount > auction.CurrentHighBid)
         {

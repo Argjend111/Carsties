@@ -10,6 +10,11 @@ public class AuctionFinishedConsumer : IConsumer<AuctionFinished>
     {
         var auction = await DB.Find<Item>().OneAsync(context.Message.AuctionId);
 
+        if (auction == null)
+        {
+            throw new MessageException(typeof(AuctionFinished), $"Could not find auction with id: {context.Message.AuctionId}");
+        }
+
         if (context.Message.ItemSold)
         {
             auction.Winner = context.Message.Winner;
