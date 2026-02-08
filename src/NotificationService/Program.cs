@@ -1,8 +1,17 @@
 using MassTransit;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using NotificationService;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.Authority = builder.Configuration["IdentityServiceUrl"];
+        options.RequireHttpsMetadata = false;
+        options.TokenValidationParameters.ValidateAudience = false;
+        options.TokenValidationParameters.NameClaimType = "username";
+    });
 builder.Services.AddMassTransit(x =>
 {
     x.AddConsumersFromNamespaceContaining<AuctionCreatedConsumer>();
@@ -29,6 +38,9 @@ builder.Services.AddMassTransit(x =>
 builder.Services.AddSignalR();
 
 var app = builder.Build();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapHub<NotificationHub>("/notifications");
 

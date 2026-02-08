@@ -1,5 +1,6 @@
 using System.Net;
 using MassTransit;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Polly;
 using Polly.Extensions.Http;
 using SearchService;
@@ -11,6 +12,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddHttpClient<AuctionSvcHttpClient>().AddPolicyHandler(GetPolicy());
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.Authority = builder.Configuration["IdentityServiceUrl"];
+        options.RequireHttpsMetadata = false;
+        options.TokenValidationParameters.ValidateAudience = false;
+        options.TokenValidationParameters.NameClaimType = "username";
+    });
 builder.Services.AddMassTransit(x =>
 {
     x.AddConsumersFromNamespaceContaining<AuctionCreatedConsumer>();
@@ -52,6 +61,7 @@ builder.Services.AddMassTransit(x =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
